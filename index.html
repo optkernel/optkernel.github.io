@@ -31,37 +31,7 @@
 
 <body>
 
-  <nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
-    <div class="navbar-menu">
-      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">
-            More Relighting Research
-          </a>
-          <div class="navbar-dropdown">
-            <a class="navbar-item" href="https://nrhints.github.io/">
-              NRHints
-            </a>
-            <a class="navbar-item" href="https://dilightnet.github.io/">
-              DiLightNet
-            </a>
-            <a class="navbar-item" href="https://arm-aigc.github.io/">
-              ARM
-            </a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </nav>
-  <section class="hero">
+<section class="hero">
     <div class="hero-body">
       <div class="container is-max-desktop">
         <div class="columns is-centered">
@@ -99,7 +69,7 @@
               <div class="publication-links">
                 <!-- ArXiv Link. -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/2410.11419" class="external-link button is-normal is-rounded is-dark">
+                  <a href="https://arxiv.org/abs/2605.25426" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="ai ai-arxiv"></i>
                     </span>
@@ -108,7 +78,7 @@
                 </span>
                 <!-- PDF Link. -->
                 <span class="link-block">
-                  <a href="./pdfs/GS3.pdf" class="external-link button is-normal is-rounded is-dark">
+                  <a href="./static/files/main_paper.pdf" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                     </span>
@@ -116,7 +86,7 @@
                   </a>
                 </span>
                 <span class="link-block">
-                  <a href="./pdfs/GS3_Supplemental.pdf" class="external-link button is-normal is-rounded is-dark">
+                  <a href="./static/files/supp.pdf" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                     </span>
@@ -125,22 +95,13 @@
                 </span>
                 <!-- Code Link. -->
                 <span class="link-block">
-                  <a href="https://github.com/gsrelight/gs-relight" class="external-link button is-normal is-rounded is-dark">
+                  <a href="https://github.com/optkernel/codebase" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>Code</span>
+                    <span>Code(coming soon)</span>
                   </a>
                 </span>
-                <!-- Dataset Link. -->
-                <span class="link-block">
-                  <a href="https://huggingface.co/datasets/gsrelight/gsrelight-data"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="far fa-images"></i>
-                    </span>
-                    <span>Data</span>
-                  </a>
               </div>
 
             </div>
@@ -153,9 +114,9 @@
   <section class="hero teaser">
     <div class="container is-max-desktop">
       <div class="hero-body">
-        <img src="./imgs/teaser.jpg" />
+        <img src="./static/files/teaser.jpg" />
         <h2 class="subtitle has-text-centered">
-          Free viewpoint relighting results trained on 500-2,000 photographs per scene captured with a lightstage.
+          We present a novel differentiable framework to automatically learn view-dependent 2D kernels in a splatting-based pipeline, that are tailored to efficiently represent various types of scenes.
         </h2>
       </div>
     </div>
@@ -174,7 +135,7 @@
           </div>
         </div>
       </div>
-      <img src="./imgs/pipeline.png" />
+      <img src="./static/files/pipeline.jpg" />
       <!--/ Abstract. -->
 
       <!-- Paper video. -->
@@ -201,19 +162,17 @@
   </section> -->
 
 
-  <!-- <section class="section" id="BibTeX">
+  <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      Our source code and data are released under the GPLv3 license for acadmic purposes. 
-      For commercial licensing options, please email hwu at acm.org.
-      <pre><code>@inproceedings {bi2024rgs,
-    title      = {GS\textsuperscript{3}: Efficient Relighting with Triple Gaussian Splatting},
-    author     = {Zoubin Bi and Yixin Zeng and Chong Zeng and Fan Pei and Xiang Feng and Kun Zhou and Hongzhi Wu},
-    booktitle  = {SIGGRAPH Asia 2024 Conference Papers},
-    year       = {2024}
+      <pre><code>@inproceedings{ding2026kernel,
+    title     = {Learning View-Dependent Splatting Kernels},
+    author    = {Huakeng Ding and Zhangpeng Liu and Fan Pei and Kun Zhou and Hongzhi Wu},
+    booktitle = {SIGGRAPH 2026 Conference Papers},
+    year      = {2026}
 }</code></pre>
     </div>
-  </section> -->
+  </section>
 
 
   <footer class="footer">
